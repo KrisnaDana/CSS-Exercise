@@ -1,0 +1,32 @@
+div.nol {
+	width:300px;
+	height:300px;
+	background-color:coral;
+	margin:auto;
+	padding:50px 50px; /*penulisannya sama seperti margin. namun, tidak bisa menggunakan value auto dan negatif. selain itu padding juga menambah ukuran elemen dalam hal ini adalah ukuran kotaknya*/
+	border:3px solid black; /*Value border ada tiga yaitu secara berurutan adalah width style color. Untuk stylenya ada 4 value yaitu solid, dotted, dashed, double*/
+	border-left: 10px double blue; /*border bisa diisi per sisi atau satu-satu seperti margin, border juga menambah ukuran elemen*/
+	/*Total dimensi= width/height + padding + border*/
+	/*Jika kotaknya ukuran tetap, width dan heightnya dikurangi valuenya*/
+	/*untuk mengatasi masalah tesebut bisa menggunakan properti box-sizing*/
+}
+
+/*Heightnya tidak usah diatur, nanti elemennya akan  menyesuaikan contetnya (agar tidak ribet)*/
+/*fungsi dari properti box-sizing adalah membuat width dan heightnya tetap berapapun jumlah padding dan bordernya*/
+div.satu {
+	width:400px;
+	box-sizing:border-box;
+	background-color:blue;
+	margin:10px auto;
+	padding:10px;
+	border:5px solid red;
+}
+
+div.dua {
+	width:400px;
+	box-sizing:border-box;
+	background-color:lightgreen;
+	margin:10px auto;
+	padding:30px;
+	border:10px dashed orange;
+}

@@ -1,0 +1,28 @@
+.satu {
+	width:200px;
+	height:200px;
+	background-color:pink;
+}
+.dua {
+	width:150%;
+	background-color:lightblue;
+}
+/*dimensi hanya memiliki properti width dan height yang valuenya
+terdiri dari px,%,cm,mm,inc,pt,pc*/
+
+.tiga {
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+}
+/*Untuk mengatasi masalah ini (pada div class="tiga") diperlukan overflow agar kontennya tidak keluar dari parentnya (dalam hal ini adalah background)*/
+/*Overflow memiliki 4 value yaitu visible,auto,hidden, dan scroll*/
+/*secara default, elemen memiliki display visible seperi yang diatas*/
+.empat {
+	width:200px;
+	height:200px;
+	background-color:yellow;
+	overflow:auto; /*muncul scroll karena kontenya melebihi dimensi jika kontennya cukup pada dimensi maka scrollnya menghilang*/
+}
+/*value hidden berfungsi untuk menyembunyikan konten yang keluar dari parentnya dalam hal ini adalah dimensi*/
+/*value scroll berfungsi seperti value auto. namun, jika kontennya cukup maka scrollnya tetap ada, tidak menghilang.*/

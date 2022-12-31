@@ -1,0 +1,12 @@
+body {
+	font-family: times new roman;
+	color : #E51F1F;
+}
+a {
+	color : inherit;
+	font-family : inherit;
+}
+/* value inherit berfungsi untuk mewarisi value css
+yang terdapat pada tag yang tertimpa diatasnya, 
+contoh tag a tertimpa oleh tag body, singkatnya tag a 
+sebagai anak dan tag body sebagai orang tua dst*/

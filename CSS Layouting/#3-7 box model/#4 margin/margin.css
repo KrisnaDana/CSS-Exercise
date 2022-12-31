@@ -1,0 +1,51 @@
+.satu {
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+	margin-left:100px;
+	margin-top:30px;
+	margin-right:50px;
+	margin-bottom:150px;
+}
+.dua {
+	width:100px;
+	height:100px;
+	background-color:lightblue;
+	margin-top:50px;
+	display:inline-block;
+}
+/*Overlapping margin artinya margin secara vertikal TIDAK saling menambahkah, contohnya margin-top:50px; dari .dua tidak menambahkan margin-bottom:150px; dari .satu, jadi yang diambil adalah margin yang terbesar */
+.tiga {
+	width:50px;
+	height:50px;
+	background-color:violet;
+	display:inline-block;
+}
+/*Pada saat horizontal (berlaku saat displaynya bervalue inline dan inline-block) marginnya saling menambahkan antara .dua dan .tiga, atau istilahnya tidak overlapping */
+
+/*Margin posisi yang valuenya negatif akan bergerak berlawanan contoh margin-top:-50px; maka akan sama valuenya dengan margin-bottom:50px; dan elemennya ikut bergerak*/
+
+/**/
+
+.empat {
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+	margin-left :auto;
+	margin-right :auto;
+	/*value auto berfungsi untuk menempatkan objek berada ditengah-tengah tetapi harus sepasang(margin-left dan margin-right)*/
+}
+.lima {
+	width:100px;
+	height:100px;
+	background-color:lightblue;
+	margin:35px auto;
+	/*properti margin berfungsi untuk mempersingkat penulisan margin, value yang pertama (35px) berfungsi untuk vertikal dan value kedua untuk horizontal*/
+}
+.enam {
+	width:50px;
+	height:50px;
+	background-color:violet;
+	margin :10px 20px 30px 40px;
+	/*value margin berdasarkan arah jarum jam dari atas, value pertama margin atas, value kedua margin kanan, value ketiga margin bawah, value keempat margin kiri*/
+}

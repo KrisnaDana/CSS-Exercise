@@ -1,0 +1,23 @@
+h1 {
+	font-family: hermit, sans-serif;
+	font-size: 150px;
+	color: #0A2ACE;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+p {
+	font-family: hermit, sans-serif;
+	font-size: 24px;
+	color: #510575;
+	font-style: italic;
+	text-align: justify;
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+
+a {
+	color: #DC0A0A;
+	text-decoration: none;
+}

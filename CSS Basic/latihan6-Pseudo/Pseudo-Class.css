@@ -1,0 +1,49 @@
+.hello:link {
+	color: orange;
+}
+
+/*fungsi :hover adalah untuk memberi efek tertentu
+pada saat kursor ke text, pada saat belum di clik*/
+.hello:hover {
+	color: green;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+/*fungsi :active adalah untuk memberi efek tertentu
+pada saat kursor ke text, pada saat di clik*/
+.hello:active {
+	font-style: italic;
+	color: #28DEE9;
+}
+
+/*fungsi :visited adalah untuk memberi efek tertentu
+pada saat kursor ke text, setelah di visit/ kunjungi*/
+.hello:visited {
+	color: red;
+}
+
+/*li di ul <body>, li adalah child (anak) dari ul ,
+ada 10 li sehingga ada 10 child*/
+
+li:first-child a {
+	color: green;
+}
+li:last-child a {
+	color: green;
+}
+
+/*nth-child() pada kurungnya bisa diisi angka, xn,
+ xn-x atau xn+x , x = angka, even untuk genap
+ , odd untuk ganjil. selain itu nth-child pada a
+  bisa di kasi hover, visited, active*/
+  /*contohnya li:nth-child(3n) a:hover {}*/
+li:nth-child(3n) a {
+	color: red;
+}
+
+/*kalo tidak punya anak, seperti paragraf <p>
+bisa pakai fist-of-type dan last-of-type*/
+p:first-of-type {
+	color: green;
+}

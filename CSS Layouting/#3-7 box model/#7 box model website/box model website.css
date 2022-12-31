@@ -1,0 +1,228 @@
+/*
+http://meyerweb.com/eric/tools/css/reset/
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+/*Style*/
+
+body {
+	font-size: 16;
+	font: 16px/28px arial, sans-serif;
+	/*pada value pertama pada properti font adalah untuk mengatur jarak tulisan antar baris*/
+	background-color: #eaeaea;
+	color: #333333;
+	background-image: url(img/Acquaint1222_rectangle.png);
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.header {
+	padding: 20px 20px 10px 20px;
+}
+
+.header .judul {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: #ffffff;
+}
+
+.hero {
+	height: 420px;
+	background-image: url(img/IMG_20160916_081801.png);
+	background-position: 0px -400px;
+	background-size: cover;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid salmon;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content .judul {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.content a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.content a:hover {
+	background-color: lightskyblue;
+	color: #ffffff;
+}
+
+.content p {
+	margin-bottom: 17px;
+	font-size: 13px;
+}
+
+.footer {
+	background-color: #424242;
+	padding: 8px;
+}
+
+.footer .copy {
+	color: #E9E7E7;
+	text-align: center;
+	font-size: 12px;
+}

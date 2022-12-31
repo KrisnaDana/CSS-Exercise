@@ -1,0 +1,46 @@
+/*Setiap tag HTML memeliki nilai default untuk properti
+display, tetapi kita dapat mengubah prilaku dari tag tersebut
+dengan mengganti value-nya*/
+/*properti Display memiliki $ value diantaranya inline, block,
+inline block, dan none masing masing memiliki fungsi tertentu*/
+
+.header {
+	background-color:purple;
+}
+/*Inline
+a.elemen HTML yang secara default tidak menambahkan baris baru
+  ketika dibuat
+b.lebar dan tingginya elemennya sebesar konten yang ada didalamya
+c.tidak dapat mengatur tinggi dan lebar dari elemen inline
+contoh elemen inline: b,strong,i,em,a,apan,sub,sup,button,
+input,label,select,textarea ... */
+
+a {
+	background-color:lightblue;
+	width:200px;
+	height:200px;
+	display:inline-block;
+}
+/*inline-block
+a.Tidak ada elemen secara default memiliki properti display ini
+b.prilaku dasarnya sama dengan elmen inline
+c.perbedaannya, elemen inline-block dapat kita atur tinggi dan
+  lebarnya*/
+
+ .main {
+	backgrund-color :pink;
+}
+/*Block
+a.elemen HTML yang secara default menambahkan baris baru ketika dibuat
+b.jika tidak diatur lebarnya maka lebar default dari elemen block
+  akan memenuhi lebar dari browser
+c.Dapat mengatur tinggi dan lebar dari elemen block
+d.Di dalam elemen block, kita dapat menyimpan tag dengan elemen
+  inline,inline-block dan elemen block
+contoh elemen block: h1-h6,p,ol,ul,li,form,hr,div,...*/
+
+.copyright {
+	display:none;
+}
+/*none
+digunakan untuk mengilangkan sebuah elemen*/

@@ -1,0 +1,35 @@
+p { color:#FFFFFF; }
+p { color:#E72727; }
+/* disini p akan menjadi berwarna merah karena perintah 
+dilakukan sesuai berurutan singkatnya p warna putih ditimpa
+oleh p yang kedua */
+
+#p1 { color:red; }
+p { color:green; }
+/*warna p akan berwarna merah karena #p1 lebih spesifik
+daripada p*/
+
+/* perumpaannya seperti ini :
+anggap memiliki angka 0 0 0 0
+maka digit pertama(ribuan) adalah inline, digit kedua
+adalah id, digit ketiga adalah class, digit keempat
+adalah element*/
+
+/*contoh :
+#p1 = 0 1 0 0
+p1 = 0 0 0 1
+maka yang lebih berat/ besar adalah #p1, maka #p1 lebih 
+spesifik daripada p1 */
+
+ul#sarapan li { color:green; }
+.favorit { color:red; }
+/*Nasi goreng akan berwarna hijau karena 
+ul#sarapan li bernilai 102 ( 2 dari ul dan li yang dimana mereka 
+termasuk element) sedangkan .favorit bernilai 10*/
+/*Agar Nasi goreng berwarna merah, maka perlu menambah beban
+dengan cara seperti berikut*/
+ul#sarapan li.favorit { color:red; }
+/*maka nasi goreng berwarna merah karena selektor itu
+bernilai 112*/
+/*kalkulator spesificity
+http://spesificity.keegan.st*/

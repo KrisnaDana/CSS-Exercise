@@ -1,0 +1,36 @@
+body {
+	font-family: algerian, sans-serif;
+}
+h1, h2 {
+	color: #1C26EA;
+}
+ul li a {
+	text-decoration: none;
+	color: #CA0E0E;
+}
+/* spasi fungsinya memilih seperti ul/li/a*/
+ol li a {
+	text-decoration: none;
+	color: #1DE391;
+}
+#p1 {
+	color: #8E0DF2;
+}
+/*html tag<class<id lebih berat, diusahakan html 
+baru class, id pake #, claas pake .*/
+/*class boleh lebih pada 1 elemen dan dapat digunakan
+pada element lain*/
+.p2 {
+	color: orange;
+}
+.cetak-miring {
+	font-style: italic;
+}
+/*yg dibawah lebih spesifik seperti p/.cetak-miring*/
+p.cetak-miring {
+	font-size: 30px;
+}
+/*untuk mewarnai salah satu kata pada paragraf, dibawah ini*/
+p span {
+	color : #2E0808;
+}
